@@ -4,6 +4,7 @@ import { UserModule } from './user/user.module';
 import { BookmarkModule } from './bookmark/bookmark.module';
 import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
+import { BookmarkSchema, UserSchema } from './schemas';
 
 @Module({
   imports: [
